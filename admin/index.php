@@ -326,5 +326,3 @@ yourls_do_action( 'admin_page_after_table' );
 if ( $is_bookmark )
 	yourls_share_box( $url, $return['shorturl'], $title, $text );
 ?>
-
-<?php yourls_html_footer( ); ?>
